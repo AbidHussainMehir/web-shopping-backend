@@ -1,13 +1,13 @@
 ---
 application:
   name: "web-shopping-backend"
-  project: "web3-shppoing-backend"
+  project: "backend"
   organization: "QoveryCommunity"
   storage:
-  - name: "images"
+  - name: "/"
     size: "10"
     type: "fast_ssd"
-    mount_point: "/mnt/images"
+    mount_point: "/mnt//"
 routers:
 - name: "main-web-shopping-backend"
   routes:
